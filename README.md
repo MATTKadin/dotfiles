@@ -11,7 +11,7 @@ installiere benötigte Programme:
 
 Debian/Ubuntu
 ```bash
-sudo apt install git stow
+sudo apt install git stow 
 
 ```
 
@@ -21,4 +21,11 @@ sudo pacman -S git stow
 ```
 
 Fedora/Redhat
+```bash
 sudo dnf install git stow
+```
+
+NerdFonts:
+```bash
+https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/GeistMono.zip
+```
