@@ -30,7 +30,7 @@
         "host",
         "cpu",
         "gpu",
-        "disk",
+        "physicaldisk",
         "memory",
         "display",
         "battery",
