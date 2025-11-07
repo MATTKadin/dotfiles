@@ -104,8 +104,8 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias hw='hwinfo --short'                                   # Hardware Info
 
-# fzf command
-alias fzf='fzf -m --preview="bat --color=always {}"'
+# fzf command with nano opens all selected files
+alias fzf2='nano $(fzf -m --preview="bat --color=always {}")'
 
 #Bindings
     #bind Ctrl+f to insert 'cdi'
