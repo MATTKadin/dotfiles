@@ -38,22 +38,22 @@
     },
     {
       "type": "physicaldisk",
-      "key": "│ ├󱄄",
-      "keyColor": "green"
-    },
-    {
-      "type": "memory",
       "key": "│ ├󰋊",
       "keyColor": "green"
     },
     {
-      "type": "swap",
+      "type": "memory",
       "key": "│ ├",
       "keyColor": "green"
     },
     {
-      "type": "display",
+      "type": "swap",
       "key": "└ └󰓡 ",
+      "keyColor": "green"
+    },
+    {
+      "type": "display",
+      "key": "│ ├󱄄",
       "keyColor": "green"
     },
     {
@@ -94,7 +94,7 @@
     },
     {
       "type": "packages",
-      "key": "│ ├",
+      "key": "│ ├󰏖",
       "keyColor": "blue"
     },
     {
@@ -104,17 +104,17 @@
     },
     {
       "type": "wm",
-      "key": "│ ├",
+      "key": "│ ├",
       "keyColor": "blue"
     },
     {
       "type": "shell",
-      "key": "│ ├󰏖",
+      "key": "│ ├",
       "keyColor": "blue"
     },
     {
       "type": "terminal",
-      "key": "│ ├󰏖",
+      "key": "│ ├",
       "keyColor": "blue"
     },
     {
