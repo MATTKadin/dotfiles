@@ -10,7 +10,9 @@
       "left": 2
     }
   },
-    
+  "size": {
+    "binaryPrefix": "jedec"
+  },    
   "modules": [
     "break",
     {
