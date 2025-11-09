@@ -1,6 +1,9 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-  "logo": {
+  "size": {
+    "binaryPrefix": "jedec"
+  },
+ "logo": {
     "type": "file",
     "color": { "1": "green" },
     "padding": {
@@ -9,9 +12,6 @@
       "left": 2
     }
   },
-  "size": {
-    "binaryPrefix": "jedec"
-  },    
   "modules": [
     "break",
     {
@@ -19,9 +19,9 @@
       "format": "\u001b[90m┌──────────────────────Hardware──────────────────────┐"
     },
     {
-      "type": "host",
-      "key": " PC",
-      "keyColor": "green"
+      "type": "title",
+      "key": "┌ PC",
+      "keyColor": "green",
     },
     {
       "type": "cpu",
@@ -46,8 +46,13 @@
       "keyColor": "green"
     },
     {
-      "type": "swap",
-      "key": "└ └󰓡 ",
+      "type": "battery",
+      "key": "│ ├󰓡 ",
+      "keyColor": "green"
+    },
+    {
+      "type": "poweradapter",
+      "key": "│ ├󰓡 ",
       "keyColor": "green"
     },
     {
@@ -56,12 +61,7 @@
       "keyColor": "green"
     },
     {
-      "type": "battery",
-      "key": "└ └󰓡 ",
-      "keyColor": "green"
-    },
-    {
-      "type": "poweradapter",
+      "type": "swap",
       "key": "└ └󰓡 ",
       "keyColor": "green"
     },
@@ -76,7 +76,7 @@
     },
     {
       "type": "os",
-      "key": "\ue900 OS",
+      "key": "┌ OS",
       "keyColor": "blue",
     },
     {
@@ -96,7 +96,7 @@
     },
     {
       "type": "de",
-      "key": " DE",
+      "key": "│ ├",
       "keyColor": "blue"
     },
     {
@@ -116,12 +116,12 @@
     },
     {
       "type": "terminalfont",
-      "key": "└ └",
+      "key": "│ ├",
       "keyColor": "blue"
     },
     {
       "type": "wmtheme",
-      "key": "│ ├󰉼",
+      "key": "└ └󰉼",
       "keyColor": "blue"
     },
     {
