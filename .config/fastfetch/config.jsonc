@@ -10,7 +10,10 @@
       "left": 2
     }
   },
-
+  "size": {
+    "binaryPrefix": "jedec"
+  }
+}
 
 // Note that you must replace the image path to an existing image to display it.
 
