@@ -26,9 +26,9 @@ sudo dnf install git stow
 ```
 
 ### NerdFonts:
-```bash
-https://github.com/ryanoasis/nerd-fonts/releases/
-```
+
+https://www.nerdfonts.com/font-downloads
+
 und diese entpackt in:
 ```bash
 ~/.local/share/fonts/
