@@ -27,7 +27,7 @@ sudo dnf install git stow
 
 ### NerdFonts:
 ```bash
-https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/GeistMono.zip
+https://github.com/ryanoasis/nerd-fonts/releases/
 ```
 und diese entpackt in:
 ```bash
