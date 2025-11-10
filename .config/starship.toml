@@ -69,8 +69,10 @@ Mint = "󰣭"
 Macos = ""
 Manjaro = ""
 Linux = "󰌽"
-Gentoo = "󰣨"
+Garuda = " "           
+Gentoo = " "
 Fedora = "󰣛"
+Nobara = " "
 Alpine = ""
 Amazon = ""
 Android = ""
@@ -107,6 +109,7 @@ style = "bg:midnight_blue"
 format = '[[ $symbol $branch ](fg:base bg:blue_sapphire)]($style)'
 
 [git_status]
+disabled = true
 style = "bg:midnight_blue"
 format = '[[($all_status$ahead_behind )](fg:base bg:blue_sapphire)]($style)'
 
