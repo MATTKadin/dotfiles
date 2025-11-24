@@ -4,6 +4,7 @@ end
 
 ## Set values
 ## Run fastfetch as welcome message
+sleep 0.1
 function fish_greeting
     fastfetch
 end
