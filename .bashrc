@@ -1,4 +1,9 @@
-# .bashrc
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
@@ -24,11 +29,6 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-# exec Fastfetch
-if [ -f /usr/bin/fastfetch ]; then
-    fastfetch
-fi
-
 # aliases
 alias snano='sudo nano'
 alias cp='cp -i'
@@ -38,6 +38,7 @@ alias cls='clear'
 alias ..='cd ..'
 alias rmd='/bin/rm --recursive --force --verbose '
 alias ls='ls -aFh --color=always'
+alias grep='grep --color=auto'
 
 #Bindings
 if [[ $- == *i* ]]; then

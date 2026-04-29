@@ -1,3 +1,12 @@
+source /usr/share/cachyos-fish-config/cachyos-config.fish
+
+# overwrite greeting
+# potentially disabling fastfetch
+#function fish_greeting
+#    # smth smth
+#end
+
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
@@ -130,6 +139,3 @@ zoxide init --cmd cd fish | source
 set -gx PATH $PATH /home/mattk/.lmstudio/bin
 # End of LM Studio CLI section
 
-
-# opencode
-fish_add_path /home/mattk/.opencode/bin
