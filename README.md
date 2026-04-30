@@ -34,3 +34,4 @@ und diese entpackt in:
 ~/.local/share/fonts/
 ```
 kopieren
+verwendet wurde in den scripts GeistMono
